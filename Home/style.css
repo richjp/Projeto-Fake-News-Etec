@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(
+    rgb(229, 184, 153),
+    rgb(233, 131, 91),
+    rgb(212, 57, 30)
+  );
+}
+
+header {
+  align-items: center;
+}
+
+/* Formatação Nav bar */
+
+.navBar {
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+  padding: 20px;
+}
+
+/*logo da pag*/
+.logo {
+  position: fixed;
+  left: -3%;
+  width: 14%;
+}
+
+/* estilo texto navbar */
+.navBar a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #f2f2f2;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Ao passar cursor em cima */
+.navBar a:hover {
+  background-color: rgb(219, 63, 43);
+  color: black;
+}
+
+/* Formatação section - conteudoHome */
+
+section.conteudoHome {
+  margin-top: 60px;
+  margin-bottom: 110px;
+}
+div.introducao {
+  padding-top: 60px;
+  margin: auto;
+  background-color: whitesmoke;
+  height: 500px;
+  width: 1100px;
+}
+
+/* Formatação topicos e paragrafos */
+
+.introducao h2 {
+  font-family: "Noto Sans Display", sans-serif;
+  font-size: 34px;
+  text-align: center;
+}
+p.paragrafo1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 84px;
+  margin-right: 84px;
+  color: rgb(32, 32, 32);
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.paragrafo2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 84px;
+  margin-right: 84px;
+  color: rgb(32, 32, 32);
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Formatação Rodapê */
+
+footer.registro {
+  background-color: rgb(0, 0, 0);
+  color: rgb(201, 201, 201);
+  padding: 30px;
+}
+.registro h3 {
+  font-size: 16px;
+  font-weight: unset;
+  text-align: center;
+}

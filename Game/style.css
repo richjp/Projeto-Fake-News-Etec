@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(
+    rgb(229, 184, 153),
+    rgb(233, 131, 91),
+    rgb(212, 57, 30)
+  );
+}
+
+header {
+  align-items: center;
+}
+
+/* Formatação Nav bar */
+
+.navBar {
+  background-color: rgb(26, 26, 26);
+  text-align: center;
+  padding: 20px;
+}
+/*logo da pag*/
+.logo {
+  position: fixed;
+  left: -3%;
+  width: 14%;
+}
+
+/* estilo texto navbar */
+.navBar a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #f2f2f2;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Ao passar cursor em cima */
+.navBar a:hover {
+  background-color: rgb(219, 63, 43);
+  color: black;
+}
+
+/* Formatação section - conteudoHome */
+
+section.conteudoHome {
+  margin-top: 60px;
+  margin-bottom: 110px;
+}
+div.introducao {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  margin: auto;
+  background-color: whitesmoke;
+  width: 1100px;
+}
+
+/* Formatação topicos e paragrafos */
+
+h2.topico1 {
+  font-family: "Noto Sans Display", sans-serif;
+  margin-left: 55px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+h3.subtopico {
+  font-family: "Noto Sans Display", sans-serif;
+  text-decoration: underline;
+  margin-left: 55px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(44, 91, 192);
+}
+h3.subtopico2 {
+  font-family: "Noto Sans Display", sans-serif;
+  text-decoration: underline;
+  margin-left: 55px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(192, 44, 44);
+}
+
+.introducao p {
+  margin-left: 84px;
+  margin-right: 84px;
+  color: rgb(32, 32, 32);
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.paragrafo1 {
+  margin-top: 40px;
+}
+p.paragrafo2 {
+  margin-top: 20px;
+}
+p.paragrafo3 {
+  margin-top: 20px;
+}
+
+/* Formatação Iframe */
+
+iframe {
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+/* Formatação Rodapê */
+
+footer.registro {
+  background-color: rgb(0, 0, 0);
+  color: rgb(201, 201, 201);
+  padding: 30px;
+}
+.registro h3 {
+  font-size: 16px;
+  font-weight: unset;
+  text-align: center;
+}
